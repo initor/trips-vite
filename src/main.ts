@@ -24,7 +24,7 @@ if (list) {
   list.innerHTML = trips
     .map(
       (t) => `
-      <a href="./${t.slug}/" class="group block rounded-[22px] bg-white p-7 transition hover:bg-white/70 sm:p-8">
+      <a href="/${t.slug}/" class="group block rounded-[22px] bg-white p-7 transition hover:bg-white/70 sm:p-8">
         <div class="flex items-start justify-between gap-4">
           <div>
             <h2 class="text-[24px] font-semibold tracking-[-0.02em] text-ink sm:text-[28px]">${t.title}</h2>
