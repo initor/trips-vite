@@ -1,4 +1,4 @@
-# trips
+# trips-vite
 
 Itineraries at [trips.waynewen.com](https://trips.waynewen.com). One static page per trip, each sealed behind a passphrase.
 
